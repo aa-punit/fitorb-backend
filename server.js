@@ -17,7 +17,7 @@ app.use(helmet());
 
 // Allow requests from the Vite dev server and production origin
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173'],
+  origin: ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'https://fitorb-frontend.vercel.app/'],
   credentials: true,
 }));
 
